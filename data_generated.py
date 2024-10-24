@@ -4,7 +4,6 @@ import boto3
 import json
 import time
 
-#Change if you named your table differently
 table_name = 'PatientSensorInformation'
 
 dynamodb = boto3.client('dynamodb')
