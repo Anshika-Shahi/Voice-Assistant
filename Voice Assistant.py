@@ -10,11 +10,7 @@ import zlib
 import json
 from pocketsphinx.pocketsphinx import *
 
-#Change to reflect the bot and alias you created
-bot_id = '##CHANGE##'
-bot_alias_id='##CHANGE##'
 
-#Change the KEY_PHRASE and DICT path if you have trained your own custom wake word.
 KEY_PHRASE = "HEY PATIENT HEALTH BOT" 
 DICT = "pocketsphinx-model/default-model/default.dic"
 
